@@ -9,7 +9,7 @@
 #!/bin/bash
 
 #initial commands
-apt-get clean && apt-get update && apt-get upgrade -y
+apt-get update && apt-get upgrade -y
 
 #VMWare guest tools
 apt-get install -y open-vm-tools*
@@ -107,6 +107,9 @@ mkdir /opt/atom
 cd /opt/atom
 wget https://github.com/atom/atom/releases/download/v1.28.1/atom-amd64.deb
 dpkg -i atom-amd64.deb
+
+#Apt cleanup
+apt-get install -f
 
 #Add antivirus scan script
 mkdir /root/Scripts

@@ -1,11 +1,3 @@
-###########################################
-##### Leidos Cyber                    #####
-###########################################
-##### PCN Pentesting System Build     #####
-##### Tested using Kali Linux v2018.2 #####
-##### Last Updated 9 July 2018        #####
-###########################################
-
 #!/bin/bash
 
 #initial commands
